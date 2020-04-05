@@ -1,0 +1,26 @@
+$breakpoints: (
+  'small': 'screen and (max-width:  767px)',
+  'medium': 'screen and (min-width:  768px) and (max-width:  1023px)',
+  'large': 'screen and (min-width:  1024px)'
+) !default;
+
+$font-large: 3rem;
+$font-medium: 1.6rem;
+$font-default: 1.0rem;
+$font-small: 0.8rem;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+
+
+@mixin menu() {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px;
+}
