@@ -1,4 +1,4 @@
-# mama
+# lsit_in_vue
 
 > A Vue.js project
 
