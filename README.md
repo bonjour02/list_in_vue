@@ -1,4 +1,4 @@
-# lsit_in_vue
+# list_in_vue
 
 > A Vue.js project
 
